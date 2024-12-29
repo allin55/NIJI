@@ -1,0 +1,5 @@
+Redirect permanent / https://niji23.stars.ne.jp/
+
+#####wpcomment_nojpdeny#####
+SetEnvIf Request_URI ".*" WpCommentDeny
+#####end:wpcomment_nojpdeny#####
